@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        background-color: #e0e0e0;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .box {
+        background-color: #fb4f00; /* Orange color */
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 8px;
+        flex: 1;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+
+  <!-- 
+  Neler Öğreneceğiz?
+  - Form elements: (`<form>`, `<input>`, `<label>`, `<button>`, `<textarea>`, `<select>`, `<option>`).
+  - Tables: (`<table>`, `<tr>`, `<td>`, `<th>`).
+  - Semantic HTML elements: (`<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`).
+  - Accessibility basics in HTML (alt text for images, form labels).
+  -->
+
+  <body>
+    <div class="container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+  </body>
+</html>
